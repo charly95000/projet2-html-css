@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body,ul{
+    margin:0;
+}
+
+body{
+    background-color: #e3e3e3;
+}
+
+li{
+    list-style-type: none
+}
+
+a{
+    text-decoration: none;
+    padding:20px;
+    display:block;
+    color:#303F9F
+}
+
+i{
+    color:rgb(255, 116, 51)
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20%
+}
+
+nav{
+    background-color: rgb(255, 116, 51);
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+
+h1{
+    font-size:80px;
+    font-family: cubic;
+    color: #303F9F;
+    padding-left: 20px;
+}
+
+header div{
+    height:65vh;
+    display:flex;
+    align-items: center;
+}
+
+
+header{
+    background-image: url('../images/fond1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top:58px
+}
+
+main{
+    margin-top: -50px;
+}
+
+main>section{
+    padding: 50px 200px;
+}
+
+#section-1{
+    padding-top:0;
+    display:flex;
+    justify-content: space-between;
+}
+
+#section-1 section{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 30%;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px rgba(0,0,0,.125);
+    background-color: #ffffff;
+    text-align:center
+}
+
+#section-1 p{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+
+img{
+    width:50%;
+    height:auto;
+    object-fit: contain;
+}
+
+#div{
+    display:flex;
+}
+h2{
+    text-align:center
+}
+
+.bg-white{
+    background-color: white;
+}
+
+#div div{
+    background-color:white;
+    align-self: center;
+    padding: 15px;
+    margin-left:-50px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.gallery div{
+    width:25%;
+    box-sizing: border-box;
+    padding:5px
+}
+
+.gallery img{
+    width:100%;
+    height: auto;
+    padding:5px;
+    box-sizing:border-box;
+    border: 1px solid #dee2a6;
+    
+}
+
+#contact-div{
+    display:flex;
+}
+
+#contact-div iframe{
+    width:50%;
+    height: 400px;
+    border:0;
+}
+
+address{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+footer{
+    background-color: #959595;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a{
+    display: inline;
+    padding:0
+}
+
+@font-face{
+    src:url('../fonts/cubic.ttf');
+    font-family: "cubic";
+}
